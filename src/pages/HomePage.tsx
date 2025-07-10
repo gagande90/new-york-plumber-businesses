@@ -7,16 +7,17 @@ import PageHero from "@/components/common/PageHero";
 import SearchBar from "@/components/common/SearchBar";
 import PlumberCard from "@/components/common/PlumberCard";
 import BlogPostCard from "@/components/common/BlogPostCard";
-import { plumbers, blogPosts, regions } from "@/data/mockData";
+import { plumbers, regions } from "@/data/mockData";
+import blogPostsData from "@/data/generatedBlogPosts.json";
 
 const HomePage = () => {
   // Get featured plumbers (first 3)
   const featuredPlumbers = plumbers.slice(0, 3);
   
-  // Get recent blog posts (first 3)
-  const recentPosts = [...blogPosts].sort((a, b) => 
-    new Date(b.date).getTime() - new Date(a.date).getTime()
-  ).slice(0, 3);
+  // Get recent blog posts from generated data (first 3)
+  const recentPosts = [...blogPostsData]
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3);
 
   return (
     <div className="min-h-screen">
