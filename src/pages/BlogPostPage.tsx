@@ -66,19 +66,6 @@ const BlogPostPage = () => {
           {/* Main Content */}
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              {/* Featured Image */}
-              <div className="aspect-video bg-gray-100">
-                {post.featuredImage ? (
-                  <img 
-                    src={post.featuredImage} 
-                    alt={post.title}
-                    className="w-full h-full object-cover"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center bg-primary-light opacity-30"></div>
-                )}
-              </div>
-              
               {/* Article Header */}
               <div className="p-8">
                 <div className="flex flex-wrap items-center gap-4 mb-6">
