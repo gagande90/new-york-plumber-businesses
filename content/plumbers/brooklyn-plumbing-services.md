@@ -1,30 +1,30 @@
 ---
 id: "plumber-1"
-businessName: "Melbourne Pro Plumbing 2"
-description: "Specializing in emergency plumbing and commercial services across Melbourne. Fast response times and 24/7 availability."
+businessName: "Brooklyn Plumbing Services"
+description: "Specializing in emergency plumbing and commercial services across Brooklyn. Fast response times and 24/7 availability."
 services:
   - "Emergency Repairs"
   - "Commercial Plumbing"
   - "Kitchen Plumbing"
   - "Bathroom Renovations"
 areasServiced:
-  - "inner-melbourne-0"
-  - "inner-melbourne-1"
-  - "inner-melbourne-3"
-phone: "0423456789"
-email: "contact@melbourneplumbing2.com.au"
-website: "https://melbourneplumbing2.com.au"
-address: "456 Flinders Street, Melbourne VIC 3000"
-logo: "/images/plumbers/melbourne-pro-plumbing-2-logo.png"
+  - "brooklyn-0"
+  - "brooklyn-1"
+  - "brooklyn-2"
+phone: "(718) 555-0456"
+email: "contact@brooklynplumbingservices.com"
+website: "https://brooklynplumbingservices.com"
+address: "456 Atlantic Avenue, Brooklyn, NY 11201"
+logo: "/images/plumbers/brooklyn-plumbing-services-logo.png"
 rating: 4.9
 reviewCount: 89
 ---
 
-# Melbourne Pro Plumbing 2
+# Brooklyn Plumbing Services
 
 ## About Us
 
-Melbourne Pro Plumbing 2 specializes in emergency plumbing services and commercial installations. With over 10 years of experience, we provide rapid response times and reliable service to both residential and commercial clients.
+Brooklyn Plumbing Services specializes in emergency plumbing services and commercial installations. With over 10 years of experience, we provide rapid response times and reliable service to both residential and commercial clients.
 
 ## Our Services
 
@@ -58,12 +58,10 @@ Full bathroom renovation services:
 
 ## Service Areas
 
-We serve the following Melbourne suburbs:
-- Carlton
-- Docklands
-- East Melbourne
-- Melbourne CBD
-- Southbank
+We serve the following Brooklyn neighborhoods:
+- Williamsburg
+- Brooklyn Heights
+- Park Slope
 
 ## Why Choose Us?
 
@@ -75,10 +73,10 @@ We serve the following Melbourne suburbs:
 
 ## Contact Information
 
-- **Phone:** 0423456789
-- **Email:** contact@melbourneplumbing2.com.au
-- **Website:** [melbourneplumbing2.com.au](https://melbourneplumbing2.com.au)
-- **Address:** 456 Flinders Street, Melbourne VIC 3000
+- **Phone:** (718) 555-0456
+- **Email:** contact@brooklynplumbingservices.com
+- **Website:** [brooklynplumbingservices.com](https://brooklynplumbingservices.com)
+- **Address:** 456 Atlantic Avenue, Brooklyn, NY 11201
 
 ## Operating Hours
 

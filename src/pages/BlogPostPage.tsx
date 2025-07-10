@@ -177,7 +177,7 @@ const BlogPostPage = () => {
               <CardContent className="pt-6">
                 <h3 className="font-medium mb-3">Need a Plumber?</h3>
                 <p className="mb-4 text-sm">
-                  Find trusted plumbing professionals in Melbourne for all your plumbing needs.
+                  Find trusted plumbing professionals in New York for all your plumbing needs.
                 </p>
                 <div className="space-y-2">
                   <Link to="/suburbs">

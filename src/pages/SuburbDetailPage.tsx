@@ -23,11 +23,11 @@ const SuburbDetailPage = () => {
   const faqs = [
     {
       question: `How much do plumbers in ${suburb?.name || 'this area'} typically charge?`,
-      answer: `Plumbers in ${suburb?.name || 'this area'} typically charge between $80-150 per hour depending on the service complexity, with additional call-out fees for emergency services. Always request a quote before committing to work.`
+      answer: `Plumbers in ${suburb?.name || 'this area'} typically charge between $100-200 per hour depending on the service complexity, with additional call-out fees for emergency services. Always request a quote before committing to work.`
     },
     {
       question: `Do I need a licensed plumber in ${suburb?.name || 'this area'}?`,
-      answer: `Yes, in Victoria all plumbing work valued at over $750 must be completed by a licensed plumber who will provide a compliance certificate. This ensures the work meets safety standards and building codes.`
+      answer: `Yes, in New York State all plumbing work must be completed by a licensed plumber who will provide a compliance certificate. This ensures the work meets safety standards and building codes.`
     },
     {
       question: `How quickly can I get emergency plumbing service in ${suburb?.name || 'this area'}?`,
@@ -67,7 +67,7 @@ const SuburbDetailPage = () => {
     <div>
       <PageHero
         title={`Plumbers in ${suburb.name}`}
-        subtitle={`Find trusted plumbing professionals serving ${suburb.name}, Melbourne.`}
+        subtitle={`Find trusted plumbing professionals serving ${suburb.name}, New York.`}
       >
         <div className="flex items-center justify-center text-white">
           <MapPin size={16} className="mr-1" />

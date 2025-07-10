@@ -1,8 +1,8 @@
 ---
 id: "blog-1"
-title: "How to Prepare Your Pipes for Winter"
-slug: "prepare-pipes-winter"
-excerpt: "Essential tips to protect your plumbing system during Melbourne's cold winter months and prevent costly damage."
+title: "How to Prepare Your Pipes for Winter in NY"
+slug: "prepare-pipes-winter-ny"
+excerpt: "Essential tips to protect your plumbing system during New York's cold winter months and prevent costly damage."
 category: "DIY Plumbing"
 tags:
   - "Winter"
@@ -11,17 +11,17 @@ tags:
   - "Prevention"
 author: "Plumbing Expert"
 date: "2024-01-20"
-featuredImage: "/images/blog/prepare-pipes-winter.jpg"
+featuredImage: "/images/blog/prepare-pipes-winter-ny.jpg"
 readTime: "4 min read"
 ---
 
-# How to Prepare Your Pipes for Winter
+# How to Prepare Your Pipes for Winter in NY
 
-Melbourne's winter can be harsh on your plumbing system. Follow these essential tips to protect your pipes and prevent costly damage.
+New York's winter can be harsh on your plumbing system. Follow these essential tips to protect your pipes and prevent costly damage.
 
 ## Why Winter Preparation Matters
 
-Melbourne's winter temperatures can drop significantly, causing pipes to freeze and potentially burst. Proper preparation can save you thousands in repair costs.
+New York's winter temperatures can drop significantly, causing pipes to freeze and potentially burst. Proper preparation can save you thousands in repair costs.
 
 ## Pre-Winter Checklist
 
@@ -106,4 +106,4 @@ Consider hiring a professional plumber to:
 
 Proper winter preparation can prevent costly plumbing emergencies. Start early and don't hesitate to call a professional for assistance.
 
-For professional plumbing services in Melbourne, contact our recommended local plumbers. 
+For professional plumbing services in New York, contact our recommended local plumbers. 

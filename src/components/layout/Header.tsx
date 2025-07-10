@@ -17,8 +17,8 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2">
             <div className="hidden md:block">
-              <h1 className="text-white font-bold text-xl">Melbourne Plumbers</h1>
-              <p className="text-white text-xs">Find Local Trusted Professionals</p>
+              <h1 className="text-white font-bold text-xl">New York Plumbers</h1>
+              <p className="text-white text-xs">Find Local Trusted Professionals in New York</p>
             </div>
           </Link>
 

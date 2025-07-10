@@ -77,9 +77,9 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-medium text-lg mb-1">Address</h3>
                     <p className="text-gray-600">
-                      123 Plumber Street<br />
-                      Melbourne VIC 3000<br />
-                      Australia
+                      123 Plumber Avenue<br />
+                      New York, NY 10001<br />
+                      USA
                     </p>
                   </div>
                 </div>
@@ -114,10 +114,10 @@ const ContactPage = () => {
             <div className="bg-secondary-light rounded-lg p-6">
               <h3 className="font-semibold text-lg mb-4">For Plumbers</h3>
               <p className="text-gray-700 mb-4">
-                Are you a plumber in Melbourne looking to join our directory? We'd love to help you connect with new customers.
+                Are you a plumber in New York looking to join our directory? We'd love to help you connect with new customers.
               </p>
               <p className="text-gray-700">
-                Contact us at <a href="mailto:listings@melbourneplumbers.com.au" className="text-primary font-medium">listings@melbourneplumbers.com.au</a> or fill out the contact form with your business details.
+                Contact us at <a href="mailto:listings@nyplumbers.com" className="text-primary font-medium">listings@nyplumbers.com</a> or fill out the contact form with your business details.
               </p>
             </div>
           </div>

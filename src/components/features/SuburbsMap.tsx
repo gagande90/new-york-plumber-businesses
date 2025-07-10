@@ -24,9 +24,9 @@ const SuburbsMap = () => {
   return (
     <div className="w-full">
       <div className="mb-6 p-4 bg-secondary-light rounded-lg">
-        <h3 className="text-lg font-semibold mb-3">Melbourne Suburbs by Region</h3>
+        <h3 className="text-lg font-semibold mb-3">New York Neighborhoods by Region</h3>
         <p className="text-gray-600 text-sm">
-          Browse plumbers by Melbourne regions and suburbs. Click on any suburb to find plumbers servicing that area.
+          Browse plumbers by New York regions and neighborhoods. Click on any neighborhood to find plumbers servicing that area.
         </p>
       </div>
       

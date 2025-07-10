@@ -22,16 +22,16 @@ const HomePage = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <PageHero
-        title="Find Trusted Plumbers in Melbourne"
-        subtitle="Connect with reliable local plumbing professionals for all your needs."
+        title="Find Trusted Plumbers in New York"
+        subtitle="Connect with reliable local plumbing professionals for all your needs in New York."
       >
         <div className="max-w-xl mx-auto">
           <SearchBar 
-            placeholder="Enter your suburb..." 
+            placeholder="Enter your neighborhood..." 
             className="mb-4"
           />
           <p className="text-white text-sm">
-            Popular: Docklands, Brunswick, Hawthorn, St Kilda, Footscray
+            Popular: Upper East Side, Williamsburg, Astoria, Park Slope, Chelsea
           </p>
         </div>
       </PageHero>
@@ -44,7 +44,7 @@ const HomePage = () => {
               How It Works
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Finding a reliable plumber in Melbourne has never been easier. Follow these simple steps to connect with trusted professionals in your area.
+              Finding a reliable plumber in New York has never been easier. Follow these simple steps to connect with trusted professionals in your area.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ const HomePage = () => {
               </div>
               <h3 className="font-semibold text-xl mb-2">Search Your Suburb</h3>
               <p className="text-gray-600">
-                Enter your suburb to find plumbers who service your local area in Melbourne.
+                Enter your suburb to find plumbers who service your local area in New York.
               </p>
             </div>
 
@@ -90,7 +90,7 @@ const HomePage = () => {
               Browse Plumbers by Region
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Find qualified plumbers servicing all areas across Melbourne.
+              Find qualified plumbers servicing all areas across New York.
             </p>
           </div>
 
@@ -140,7 +140,7 @@ const HomePage = () => {
           <div className="text-center mt-8">
             <Link to="/suburbs">
               <Button>
-                View All Melbourne Suburbs
+                View All New York Neighborhoods
                 <ArrowRight size={16} className="ml-1" />
               </Button>
             </Link>
@@ -156,7 +156,7 @@ const HomePage = () => {
               Featured Plumbers
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Top-rated plumbing professionals serving the Melbourne area.
+              Top-rated plumbing professionals serving the New York area.
             </p>
           </div>
 
@@ -189,7 +189,7 @@ const HomePage = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
               <div>
                 <div className="text-3xl font-bold mb-2">78%</div>
-                <p>of Melbourne homes will experience a serious plumbing issue within a 5-year period</p>
+                <p>of New York homes will experience a serious plumbing issue within a 5-year period</p>
               </div>
               <div>
                 <div className="text-3xl font-bold mb-2">15,000L</div>
@@ -197,7 +197,7 @@ const HomePage = () => {
               </div>
               <div>
                 <div className="text-3xl font-bold mb-2">24hr</div>
-                <p>is the average response time for emergency plumbers in Melbourne</p>
+                <p>is the average response time for emergency plumbers in New York</p>
               </div>
             </div>
             <p className="text-lg">

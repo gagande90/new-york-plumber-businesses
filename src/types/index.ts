@@ -10,12 +10,17 @@ export interface Suburb {
   content?: string;
 }
 
-export type Region = 
-  | "Inner Melbourne" 
-  | "Northern Suburbs" 
-  | "Eastern Suburbs" 
-  | "Southern Suburbs" 
-  | "Western Suburbs";
+export type Region =
+  | "Manhattan"
+  | "Brooklyn"
+  | "Queens"
+  | "Bronx"
+  | "Staten Island"
+  | "Long Island"
+  | "Upstate New York"
+  | "Hudson Valley"
+  | "Capital Region"
+  | "Finger Lakes";
 
 export interface Plumber {
   id: string;
@@ -54,10 +59,10 @@ export interface BlogPost {
   readTime?: string;
 }
 
-export type BlogCategory = 
-  | "DIY Plumbing" 
-  | "Plumbing Tips" 
-  | "Industry News" 
+export type BlogCategory =
+  | "DIY Plumbing"
+  | "Plumbing Tips"
+  | "Industry News"
   | "How-To Guides";
 
 export interface ContactMessage {

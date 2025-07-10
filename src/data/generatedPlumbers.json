@@ -1,32 +1,8 @@
 [
   {
-    "id": "plumber-0",
-    "businessName": "Melbourne Pro Plumbing 1",
-    "description": "A professional plumbing service with over 15 years of experience serving Melbourne. We pride ourselves on quality workmanship and customer satisfaction.",
-    "services": [
-      "Emergency Repairs",
-      "Blocked Drains",
-      "Hot Water Systems",
-      "Gas Fitting"
-    ],
-    "areasServiced": [
-      "inner-melbourne-0",
-      "inner-melbourne-1",
-      "inner-melbourne-2"
-    ],
-    "phone": "0412345678",
-    "email": "contact@melbourneplumbing1.com.au",
-    "website": "https://melbourneplumbing1.com.au",
-    "address": "123 Collins Street, Melbourne VIC 3000",
-    "logo": "/images/plumbers/melbourne-pro-plumbing-1-logo.png",
-    "rating": 4.8,
-    "reviewCount": 127,
-    "content": "# Melbourne Pro Plumbing 1\n\n## About Us\n\nMelbourne Pro Plumbing 1 has been serving the Melbourne community for over 15 years. We are a family-owned business committed to providing reliable, professional plumbing services to both residential and commercial clients.\n\n## Our Services\n\n### Emergency Plumbing\nAvailable 24/7 for urgent plumbing emergencies including burst pipes, blocked drains, and gas leaks.\n\n### Hot Water Systems\nInstallation, repair, and maintenance of all types of hot water systems including electric, gas, and solar.\n\n### Gas Fitting\nLicensed gas fitting services for new installations, repairs, and safety inspections.\n\n### Drain Services\nProfessional drain cleaning, camera inspections, and trenchless pipe relining.\n\n## Service Areas\n\nWe proudly serve the following Melbourne suburbs:\n- Carlton\n- Docklands\n- East Melbourne\n- Melbourne CBD\n- North Melbourne\n\n## Why Choose Us?\n\n- **Licensed & Insured** - All work guaranteed and fully insured\n- **24/7 Emergency Service** - Available when you need us most\n- **Upfront Pricing** - No hidden costs or surprises\n- **Experienced Team** - Qualified plumbers with years of experience\n- **Quality Guarantee** - All work backed by our satisfaction guarantee\n\n## Contact Information\n\n- **Phone:** 0412345678\n- **Email:** contact@melbourneplumbing1.com.au\n- **Website:** [melbourneplumbing1.com.au](https://melbourneplumbing1.com.au)\n- **Address:** 123 Collins Street, Melbourne VIC 3000\n\n## Operating Hours\n\n- **Monday - Friday:** 7:00 AM - 6:00 PM\n- **Saturday:** 8:00 AM - 4:00 PM\n- **Sunday:** Emergency calls only\n- **24/7 Emergency Service Available**"
-  },
-  {
     "id": "plumber-1",
-    "businessName": "Melbourne Pro Plumbing 2",
-    "description": "Specializing in emergency plumbing and commercial services across Melbourne. Fast response times and 24/7 availability.",
+    "businessName": "Brooklyn Plumbing Services",
+    "description": "Specializing in emergency plumbing and commercial services across Brooklyn. Fast response times and 24/7 availability.",
     "services": [
       "Emergency Repairs",
       "Commercial Plumbing",
@@ -34,17 +10,41 @@
       "Bathroom Renovations"
     ],
     "areasServiced": [
-      "inner-melbourne-0",
-      "inner-melbourne-1",
-      "inner-melbourne-3"
+      "brooklyn-0",
+      "brooklyn-1",
+      "brooklyn-2"
     ],
-    "phone": "0423456789",
-    "email": "contact@melbourneplumbing2.com.au",
-    "website": "https://melbourneplumbing2.com.au",
-    "address": "456 Flinders Street, Melbourne VIC 3000",
-    "logo": "/images/plumbers/melbourne-pro-plumbing-2-logo.png",
+    "phone": "(718) 555-0456",
+    "email": "contact@brooklynplumbingservices.com",
+    "website": "https://brooklynplumbingservices.com",
+    "address": "456 Atlantic Avenue, Brooklyn, NY 11201",
+    "logo": "/images/plumbers/brooklyn-plumbing-services-logo.png",
     "rating": 4.9,
     "reviewCount": 89,
-    "content": "# Melbourne Pro Plumbing 2\n\n## About Us\n\nMelbourne Pro Plumbing 2 specializes in emergency plumbing services and commercial installations. With over 10 years of experience, we provide rapid response times and reliable service to both residential and commercial clients.\n\n## Our Services\n\n### Emergency Plumbing\n24/7 emergency response for urgent plumbing issues including:\n- Burst pipes and water leaks\n- Blocked drains and toilets\n- Gas leaks and safety issues\n- Hot water system failures\n\n### Commercial Plumbing\nSpecialized services for businesses including:\n- Office building maintenance\n- Restaurant and cafe plumbing\n- Retail space installations\n- Industrial plumbing systems\n\n### Kitchen Plumbing\nComplete kitchen plumbing services:\n- New kitchen installations\n- Dishwasher connections\n- Sink and tap installations\n- Gas appliance fitting\n\n### Bathroom Renovations\nFull bathroom renovation services:\n- Complete bathroom remodels\n- Shower and bath installations\n- Toilet installations\n- Plumbing for new fixtures\n\n## Service Areas\n\nWe serve the following Melbourne suburbs:\n- Carlton\n- Docklands\n- East Melbourne\n- Melbourne CBD\n- Southbank\n\n## Why Choose Us?\n\n- **24/7 Emergency Service** - Available when you need us most\n- **Fast Response Times** - Average 30-minute response time\n- **Licensed & Insured** - All work guaranteed\n- **Commercial Specialists** - Experienced with business properties\n- **Upfront Pricing** - No hidden costs\n\n## Contact Information\n\n- **Phone:** 0423456789\n- **Email:** contact@melbourneplumbing2.com.au\n- **Website:** [melbourneplumbing2.com.au](https://melbourneplumbing2.com.au)\n- **Address:** 456 Flinders Street, Melbourne VIC 3000\n\n## Operating Hours\n\n- **Emergency Service:** 24/7\n- **Regular Hours:** Monday - Friday 7:00 AM - 7:00 PM\n- **Weekend Service:** Available for emergencies"
+    "content": "# Brooklyn Plumbing Services\n\n## About Us\n\nBrooklyn Plumbing Services specializes in emergency plumbing services and commercial installations. With over 10 years of experience, we provide rapid response times and reliable service to both residential and commercial clients.\n\n## Our Services\n\n### Emergency Plumbing\n24/7 emergency response for urgent plumbing issues including:\n- Burst pipes and water leaks\n- Blocked drains and toilets\n- Gas leaks and safety issues\n- Hot water system failures\n\n### Commercial Plumbing\nSpecialized services for businesses including:\n- Office building maintenance\n- Restaurant and cafe plumbing\n- Retail space installations\n- Industrial plumbing systems\n\n### Kitchen Plumbing\nComplete kitchen plumbing services:\n- New kitchen installations\n- Dishwasher connections\n- Sink and tap installations\n- Gas appliance fitting\n\n### Bathroom Renovations\nFull bathroom renovation services:\n- Complete bathroom remodels\n- Shower and bath installations\n- Toilet installations\n- Plumbing for new fixtures\n\n## Service Areas\n\nWe serve the following Brooklyn neighborhoods:\n- Williamsburg\n- Brooklyn Heights\n- Park Slope\n\n## Why Choose Us?\n\n- **24/7 Emergency Service** - Available when you need us most\n- **Fast Response Times** - Average 30-minute response time\n- **Licensed & Insured** - All work guaranteed\n- **Commercial Specialists** - Experienced with business properties\n- **Upfront Pricing** - No hidden costs\n\n## Contact Information\n\n- **Phone:** (718) 555-0456\n- **Email:** contact@brooklynplumbingservices.com\n- **Website:** [brooklynplumbingservices.com](https://brooklynplumbingservices.com)\n- **Address:** 456 Atlantic Avenue, Brooklyn, NY 11201\n\n## Operating Hours\n\n- **Emergency Service:** 24/7\n- **Regular Hours:** Monday - Friday 7:00 AM - 7:00 PM\n- **Weekend Service:** Available for emergencies"
+  },
+  {
+    "id": "plumber-0",
+    "businessName": "NYC Emergency Plumbing",
+    "description": "A professional plumbing service with over 15 years of experience serving New York City. We pride ourselves on quality workmanship and customer satisfaction.",
+    "services": [
+      "Emergency Repairs",
+      "Blocked Drains",
+      "Hot Water Systems",
+      "Gas Fitting"
+    ],
+    "areasServiced": [
+      "manhattan-0",
+      "manhattan-1",
+      "manhattan-2"
+    ],
+    "phone": "(212) 555-0123",
+    "email": "contact@nycemergencyplumbing.com",
+    "website": "https://nycemergencyplumbing.com",
+    "address": "123 Broadway, New York, NY 10001",
+    "logo": "/images/plumbers/nyc-emergency-plumbing-logo.png",
+    "rating": 4.8,
+    "reviewCount": 127,
+    "content": "# NYC Emergency Plumbing\n\n## About Us\n\nNYC Emergency Plumbing has been serving the New York City community for over 15 years. We are a family-owned business committed to providing reliable, professional plumbing services to both residential and commercial clients.\n\n## Our Services\n\n### Emergency Plumbing\nAvailable 24/7 for urgent plumbing emergencies including burst pipes, blocked drains, and gas leaks.\n\n### Hot Water Systems\nInstallation, repair, and maintenance of all types of hot water systems including electric, gas, and tankless.\n\n### Gas Fitting\nLicensed gas fitting services for new installations, repairs, and safety inspections.\n\n### Drain Services\nProfessional drain cleaning, camera inspections, and trenchless pipe relining.\n\n## Service Areas\n\nWe proudly serve the following Manhattan neighborhoods:\n- Upper East Side\n- Upper West Side\n- Midtown\n- Downtown\n\n## Why Choose Us?\n\n- **Licensed & Insured** - All work guaranteed and fully insured\n- **24/7 Emergency Service** - Available when you need us most\n- **Upfront Pricing** - No hidden costs or surprises\n- **Experienced Team** - Qualified plumbers with years of experience\n- **Quality Guarantee** - All work backed by our satisfaction guarantee\n\n## Contact Information\n\n- **Phone:** (212) 555-0123\n- **Email:** contact@nycemergencyplumbing.com\n- **Website:** [nycemergencyplumbing.com](https://nycemergencyplumbing.com)\n- **Address:** 123 Broadway, New York, NY 10001\n\n## Operating Hours\n\n- **Monday - Friday:** 7:00 AM - 6:00 PM\n- **Saturday:** 8:00 AM - 4:00 PM\n- **Sunday:** Emergency calls only\n- **24/7 Emergency Service Available**"
   }
 ]

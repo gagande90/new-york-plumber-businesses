@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">Melbourne Plumbers</h3>
+            <h3 className="text-xl font-semibold mb-4">New York Plumbers</h3>
             <p className="mb-4">
-              Your trusted source for finding qualified and reliable plumbers across Melbourne.
+              Your trusted source for finding qualified and reliable plumbers across New York.
             </p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="text-white hover:text-primary-light">
@@ -78,22 +78,22 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 flex-shrink-0" />
-                <span>123 Plumber Street, Melbourne VIC 3000, Australia</span>
+                <span>123 Plumber Avenue, New York, NY 10001, USA</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 flex-shrink-0" />
-                <span>(03) 9123 4567</span>
+                <span>(212) 555-0123</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0" />
-                <span>info@melbourneplumbers.com.au</span>
+                <span>info@nyplumbers.com</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-700 pt-6 text-sm text-center">
           <p>
-            © {currentYear} Melbourne Plumbers Directory. All rights reserved.
+            © {currentYear} New York Plumbers Directory. All rights reserved.
           </p>
         </div>
       </div>

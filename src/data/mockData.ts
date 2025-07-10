@@ -1,31 +1,41 @@
 
 import { Suburb, Region, Plumber, BlogPost, BlogCategory } from "../types";
 
-// Sample regions and suburbs in Melbourne
-export const regions: { [key in Region]: string[] } = {
-  "Inner Melbourne": [
-    "Carlton", "Docklands", "East Melbourne", "Kensington", "Melbourne CBD", 
-    "North Melbourne", "Southbank", "West Melbourne"
+// Sample regions and neighborhoods in New York
+export const regions: { [key: string]: string[] } = {
+  "Manhattan": [
+    "Upper East Side", "Upper West Side", "Midtown", "Downtown", "Chelsea", "Harlem"
   ],
-  "Northern Suburbs": [
-    "Brunswick", "Coburg", "Essendon", "Fawkner", "Glenroy", "Pascoe Vale", 
-    "Preston", "Reservoir", "Thornbury"
+  "Brooklyn": [
+    "Williamsburg", "Brooklyn Heights", "Park Slope", "DUMBO", "Bay Ridge"
   ],
-  "Eastern Suburbs": [
-    "Balwyn", "Box Hill", "Camberwell", "Doncaster", "Hawthorn", "Kew", 
-    "Mont Albert", "Ringwood", "Surrey Hills"
+  "Queens": [
+    "Astoria", "Long Island City", "Flushing", "Forest Hills", "Jackson Heights"
   ],
-  "Southern Suburbs": [
-    "Brighton", "Caulfield", "Cheltenham", "Elsternwick", "Malvern", "Oakleigh", 
-    "Sandringham", "St Kilda"
+  "Bronx": [
+    "Riverdale", "Pelham Bay", "Morris Park"
   ],
-  "Western Suburbs": [
-    "Altona", "Footscray", "Newport", "Sunshine", "Werribee", "Williamstown", 
-    "Yarraville"
+  "Staten Island": [
+    "St. George", "Tottenville", "Great Kills"
   ],
+  "Long Island": [
+    "Nassau County", "Suffolk County", "Hamptons"
+  ],
+  "Upstate New York": [
+    "Albany", "Buffalo", "Rochester", "Syracuse", "Utica"
+  ],
+  "Hudson Valley": [
+    "Poughkeepsie", "Newburgh", "Kingston"
+  ],
+  "Capital Region": [
+    "Albany", "Schenectady", "Troy"
+  ],
+  "Finger Lakes": [
+    "Ithaca", "Geneva", "Canandaigua"
+  ]
 };
 
-// Generate suburbs data
+// Generate neighborhoods data
 export const suburbs: Suburb[] = Object.entries(regions).flatMap(
   ([region, suburbNames]) =>
     suburbNames.map((name, index) => ({
@@ -33,7 +43,7 @@ export const suburbs: Suburb[] = Object.entries(regions).flatMap(
       name,
       region: region as Region,
       slug: name.toLowerCase().replace(/\s+/g, "-"),
-      description: `${name} is located in the ${region} of Melbourne. Find trusted local plumbers serving this area.`
+      description: `${name} is located in the ${region} of New York. Find trusted local plumbers serving this area.`
     }))
 );
 
@@ -72,17 +82,15 @@ export const plumbers: Plumber[] = Array(25)
 
     return {
       id: `plumber-${index}`,
-      businessName: `Melbourne Pro Plumbing ${index + 1}`,
+      businessName: `NY Pro Plumbing ${index + 1}`,
       description: `A professional plumbing service with over ${Math.floor(
         Math.random() * 20
-      ) + 5} years of experience serving Melbourne. We pride ourselves on quality workmanship and customer satisfaction.`,
+      ) + 5} years of experience serving New York. We pride ourselves on quality workmanship and customer satisfaction.`,
       services: selectedServices,
       areasServiced: servicedSuburbs,
-      phone: `0${Math.floor(Math.random() * 100000000)
-        .toString()
-        .padStart(8, "4")}`,
-      email: `contact@melbourneplumbing${index + 1}.com.au`,
-      website: Math.random() > 0.3 ? `https://melbourneplumbing${index + 1}.com.au` : undefined,
+      phone: `(${Math.floor(Math.random() * 900) + 100}) ${Math.floor(Math.random() * 900) + 100}-${Math.floor(Math.random() * 9000) + 1000}`,
+      email: `contact@nyplumbing${index + 1}.com`,
+      website: Math.random() > 0.3 ? `https://nyplumbing${index + 1}.com` : undefined,
       reviews: Array(Math.floor(Math.random() * 5))
         .fill(null)
         .map((_, reviewIndex) => ({
@@ -106,13 +114,13 @@ const blogCategories: BlogCategory[] = [
 ];
 
 const blogTitles = [
-  "Top 5 Plumbing Issues in Melbourne Homes",
-  "How to Prepare Your Pipes for Winter",
+  "Top 5 Plumbing Issues in NYC Homes",
+  "How to Prepare Your Pipes for Winter in NY",
   "Understanding Water Pressure Problems",
   "DIY Fixes for Leaky Taps",
   "When to Call a Professional Plumber",
-  "New Plumbing Regulations in Victoria",
-  "Water-Saving Tips for Melbourne Homeowners",
+  "New Plumbing Regulations in New York State",
+  "Water-Saving Tips for NYC Homeowners",
   "Signs Your Hot Water System Needs Replacing",
   "How to Choose the Right Plumber",
   "Common Causes of Blocked Drains"
@@ -127,7 +135,7 @@ export const blogPosts: BlogPost[] = blogTitles.map((title, index) => {
     slug: title.toLowerCase().replace(/\s+/g, "-"),
     excerpt: `Learn about ${title.toLowerCase()} and how to deal with them effectively.`,
     content: `
-      <p>Melbourne homeowners often face various plumbing issues that can disrupt daily life. This article explores common problems and solutions.</p>
+      <p>NYC homeowners often face various plumbing issues that can disrupt daily life. This article explores common problems and solutions.</p>
       <h2>Common Issues</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod, nisl eget ultricies ultricies, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nisl.</p>
       <h2>Professional Solutions</h2>
@@ -136,7 +144,7 @@ export const blogPosts: BlogPost[] = blogTitles.map((title, index) => {
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed euismod, nisl eget ultricies ultricies, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nisl.</p>
     `,
     category,
-    tags: ["Melbourne", "Plumbing", "Maintenance", "Home Repairs"],
+    tags: ["NYC", "Plumbing", "Maintenance", "Home Repairs"],
     author: "Plumbing Expert",
     date: new Date(Date.now() - Math.floor(Math.random() * 10000000000)).toISOString()
   };

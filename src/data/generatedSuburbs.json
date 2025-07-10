@@ -1,48 +1,39 @@
 [
   {
-    "id": "western-suburbs-0",
-    "name": "Altona",
-    "region": "Western Suburbs",
-    "slug": "altona",
-    "description": "Altona is located in the Western Suburbs of Melbourne. Find trusted local plumbers serving this area.",
-    "postcode": "3018",
-    "content": "# Altona\n\nAltona is a bayside suburb known for its beaches, parks, and relaxed coastal lifestyle. It offers a mix of residential and recreational spaces."
+    "id": "upstate-0",
+    "name": "Albany",
+    "region": "Upstate New York",
+    "slug": "albany",
+    "description": "Albany is located in Upstate New York. Find trusted local plumbers serving this area.",
+    "postcode": "12207",
+    "content": "# Albany\n\nAlbany is the capital of New York State, featuring historic architecture, government institutions, and educational centers. It offers a mix of urban amenities and suburban comfort with a strong sense of community."
   },
   {
-    "id": "eastern-suburbs-0",
-    "name": "Balwyn",
-    "region": "Eastern Suburbs",
-    "slug": "balwyn",
-    "description": "Balwyn is located in the Eastern Suburbs of Melbourne. Find trusted local plumbers serving this area.",
-    "postcode": "3103",
-    "content": "# Balwyn\n\nBalwyn is a prestigious suburb known for its leafy streets, excellent schools, and family-friendly atmosphere. It offers a mix of heritage homes and modern amenities."
+    "id": "queens-0",
+    "name": "Astoria",
+    "region": "Queens",
+    "slug": "astoria",
+    "description": "Astoria is located in Queens. Find trusted local plumbers serving this area.",
+    "postcode": "11105",
+    "content": "# Astoria\n\nAstoria is a diverse neighborhood in Queens known for its Greek community, excellent ethnic restaurants, and vibrant cultural scene. It offers affordable housing, great food options, and easy access to Manhattan via the subway."
   },
   {
-    "id": "eastern-suburbs-1",
-    "name": "Box Hill",
-    "region": "Eastern Suburbs",
-    "slug": "box-hill",
-    "description": "Box Hill is located in the Eastern Suburbs of Melbourne. Find trusted local plumbers serving this area.",
-    "postcode": "3128",
-    "content": "# Box Hill\n\nBox Hill is a vibrant multicultural hub, famous for its Asian cuisine, shopping precincts, and excellent public transport connections."
+    "id": "brooklyn-1",
+    "name": "Brooklyn Heights",
+    "region": "Brooklyn",
+    "slug": "brooklyn-heights",
+    "description": "Brooklyn Heights is located in Brooklyn. Find trusted local plumbers serving this area.",
+    "postcode": "11201",
+    "content": "# Brooklyn Heights\n\nBrooklyn Heights is a historic neighborhood known for its beautiful brownstones, tree-lined streets, and stunning views of the Manhattan skyline. It offers a peaceful residential atmosphere with easy access to downtown Brooklyn and Manhattan."
   },
   {
-    "id": "southern-suburbs-0",
-    "name": "Brighton",
-    "region": "Southern Suburbs",
-    "slug": "brighton",
-    "description": "Brighton is located in the Southern Suburbs of Melbourne. Find trusted local plumbers serving this area.",
-    "postcode": "3186",
-    "content": "# Brighton\n\nBrighton is a prestigious bayside suburb known for its beaches, luxury homes, and vibrant shopping and dining precincts."
-  },
-  {
-    "id": "northern-suburbs-0",
-    "name": "Brunswick",
-    "region": "Northern Suburbs",
-    "slug": "brunswick",
-    "description": "Brunswick is located in the Northern Suburbs of Melbourne. Find trusted local plumbers serving this area.",
-    "postcode": "3056",
-    "content": "# Brunswick\n\nBrunswick is a lively suburb known for its multicultural community, vibrant arts scene, and bustling Sydney Road. It offers a mix of residential, commercial, and entertainment options."
+    "id": "upstate-1",
+    "name": "Buffalo",
+    "region": "Upstate New York",
+    "slug": "buffalo",
+    "description": "Buffalo is located in Upstate New York. Find trusted local plumbers serving this area.",
+    "postcode": "14202",
+    "content": "# Buffalo\n\nBuffalo is a major city in western New York known for its architectural heritage, waterfront development, and strong industrial history. It offers affordable housing, excellent food scene, and proximity to Niagara Falls."
   },
   {
     "id": "eastern-suburbs-2",
@@ -72,6 +63,15 @@
     "description": "Caulfield is located in the Southern Suburbs of Melbourne. Find trusted local plumbers serving this area.",
     "postcode": "3162",
     "content": "# Caulfield\n\nCaulfield is a well-established suburb known for its racecourse, parks, and excellent schools. It offers a mix of residential and commercial areas."
+  },
+  {
+    "id": "manhattan-4",
+    "name": "Chelsea",
+    "region": "Manhattan",
+    "slug": "chelsea",
+    "description": "Chelsea is located in Manhattan. Find trusted local plumbers serving this area.",
+    "postcode": "10011",
+    "content": "# Chelsea\n\nChelsea is a vibrant neighborhood known for its art galleries, the High Line park, and trendy restaurants. It offers a mix of historic architecture and modern developments with a creative atmosphere."
   },
   {
     "id": "southern-suburbs-2",
@@ -112,6 +112,15 @@
     "content": "# Doncaster\n\nDoncaster is a thriving suburb known for its large shopping centre, modern developments, and panoramic city views."
   },
   {
+    "id": "manhattan-3",
+    "name": "Downtown",
+    "region": "Manhattan",
+    "slug": "downtown",
+    "description": "Downtown is located in Manhattan. Find trusted local plumbers serving this area.",
+    "postcode": "10005",
+    "content": "# Downtown\n\nDowntown Manhattan includes the Financial District, Wall Street, and historic areas like the World Trade Center site. It's a major business district with historic landmarks and modern developments."
+  },
+  {
     "id": "inner-melbourne-2",
     "name": "East Melbourne",
     "region": "Inner Melbourne",
@@ -146,6 +155,15 @@
     "description": "Fawkner is located in the Northern Suburbs of Melbourne. Find trusted local plumbers serving this area.",
     "postcode": "3060",
     "content": "# Fawkner\n\nFawkner is a residential suburb with a strong sense of community, offering parks, schools, and convenient access to public transport."
+  },
+  {
+    "id": "queens-2",
+    "name": "Flushing",
+    "region": "Queens",
+    "slug": "flushing",
+    "description": "Flushing is located in Queens. Find trusted local plumbers serving this area.",
+    "postcode": "11355",
+    "content": "# Flushing\n\nFlushing is a diverse neighborhood in Queens known for its large Asian community, excellent ethnic restaurants, and the Queens Botanical Garden. It offers affordable housing and a vibrant cultural scene."
   },
   {
     "id": "western-suburbs-1",
@@ -193,6 +211,15 @@
     "content": "# Kew\n\nKew is an affluent suburb known for its prestigious schools, beautiful parks, and grand homes. It offers a peaceful lifestyle close to the city."
   },
   {
+    "id": "queens-1",
+    "name": "Long Island City",
+    "region": "Queens",
+    "slug": "long-island-city",
+    "description": "Long Island City is located in Queens. Find trusted local plumbers serving this area.",
+    "postcode": "11101",
+    "content": "# Long Island City\n\nLong Island City is a rapidly developing neighborhood in Queens, known for its waterfront views, modern high-rise developments, and growing arts scene. It offers easy access to Manhattan and is becoming a popular residential area."
+  },
+  {
     "id": "southern-suburbs-4",
     "name": "Malvern",
     "region": "Southern Suburbs",
@@ -209,6 +236,15 @@
     "description": "Melbourne CBD is the central business district of Melbourne. Find trusted local plumbers serving this area.",
     "postcode": "3000",
     "content": "# Melbourne CBD\n\nMelbourne CBD is the bustling heart of the city, home to major businesses, shopping, dining, and entertainment. It is a hub for both residents and visitors."
+  },
+  {
+    "id": "manhattan-2",
+    "name": "Midtown",
+    "region": "Manhattan",
+    "slug": "midtown",
+    "description": "Midtown is located in Manhattan. Find trusted local plumbers serving this area.",
+    "postcode": "10018",
+    "content": "# Midtown\n\nMidtown Manhattan is the bustling commercial heart of New York City, home to iconic landmarks like Times Square, the Empire State Building, and Rockefeller Center. It's a major business district with world-class shopping, dining, and entertainment."
   },
   {
     "id": "eastern-suburbs-6",
@@ -247,6 +283,15 @@
     "content": "# Oakleigh\n\nOakleigh is a vibrant suburb known for its Greek community, bustling shopping centre, and diverse dining options."
   },
   {
+    "id": "brooklyn-2",
+    "name": "Park Slope",
+    "region": "Brooklyn",
+    "slug": "park-slope",
+    "description": "Park Slope is located in Brooklyn. Find trusted local plumbers serving this area.",
+    "postcode": "11215",
+    "content": "# Park Slope\n\nPark Slope is a family-friendly neighborhood known for its beautiful brownstones, excellent schools, and proximity to Prospect Park. It offers a strong sense of community and excellent amenities."
+  },
+  {
     "id": "northern-suburbs-5",
     "name": "Pascoe Vale",
     "region": "Northern Suburbs",
@@ -281,6 +326,24 @@
     "description": "Ringwood is located in the Eastern Suburbs of Melbourne. Find trusted local plumbers serving this area.",
     "postcode": "3134",
     "content": "# Ringwood\n\nRingwood is a major commercial and transport hub in Melbourne's east, offering shopping, parks, and a range of housing options."
+  },
+  {
+    "id": "bronx-0",
+    "name": "Riverdale",
+    "region": "Bronx",
+    "slug": "riverdale",
+    "description": "Riverdale is located in the Bronx. Find trusted local plumbers serving this area.",
+    "postcode": "10471",
+    "content": "# Riverdale\n\nRiverdale is an affluent neighborhood in the Bronx known for its suburban feel, large homes, and beautiful parks. It offers a peaceful residential atmosphere with excellent schools and easy access to Manhattan."
+  },
+  {
+    "id": "upstate-2",
+    "name": "Rochester",
+    "region": "Upstate New York",
+    "slug": "rochester",
+    "description": "Rochester is located in Upstate New York. Find trusted local plumbers serving this area.",
+    "postcode": "14602",
+    "content": "# Rochester\n\nRochester is a major city in western New York known for its educational institutions, healthcare facilities, and strong manufacturing history. It offers affordable housing and excellent quality of life."
   },
   {
     "id": "southern-suburbs-6",
@@ -337,6 +400,24 @@
     "content": "# Thornbury\n\nThornbury is a trendy suburb known for its lively arts scene, cafes, and music venues. It attracts young professionals and creatives."
   },
   {
+    "id": "manhattan-0",
+    "name": "Upper East Side",
+    "region": "Manhattan",
+    "slug": "upper-east-side",
+    "description": "Upper East Side is located in Manhattan. Find trusted local plumbers serving this area.",
+    "postcode": "10021",
+    "content": "# Upper East Side\n\nThe Upper East Side is one of Manhattan's most prestigious neighborhoods, known for its luxury apartments, high-end shopping along Madison Avenue, and cultural institutions like the Metropolitan Museum of Art. It offers a sophisticated urban lifestyle with excellent amenities."
+  },
+  {
+    "id": "manhattan-1",
+    "name": "Upper West Side",
+    "region": "Manhattan",
+    "slug": "upper-west-side",
+    "description": "Upper West Side is located in Manhattan. Find trusted local plumbers serving this area.",
+    "postcode": "10024",
+    "content": "# Upper West Side\n\nThe Upper West Side is a vibrant neighborhood known for its cultural institutions like Lincoln Center, beautiful pre-war buildings, and family-friendly atmosphere. It offers excellent restaurants, shopping, and easy access to Central Park."
+  },
+  {
     "id": "western-suburbs-4",
     "name": "Werribee",
     "region": "Western Suburbs",
@@ -353,6 +434,15 @@
     "description": "West Melbourne is located in the Inner Melbourne region. Find trusted local plumbers serving this area.",
     "postcode": "3003",
     "content": "# West Melbourne\n\nWest Melbourne offers a mix of industrial heritage and modern living, with easy access to the CBD and local amenities."
+  },
+  {
+    "id": "brooklyn-0",
+    "name": "Williamsburg",
+    "region": "Brooklyn",
+    "slug": "williamsburg",
+    "description": "Williamsburg is located in Brooklyn. Find trusted local plumbers serving this area.",
+    "postcode": "11211",
+    "content": "# Williamsburg\n\nWilliamsburg is a trendy neighborhood in Brooklyn known for its hipster culture, artisanal shops, craft breweries, and vibrant nightlife. It offers a mix of historic buildings, modern developments, and a creative community atmosphere."
   },
   {
     "id": "western-suburbs-5",
