@@ -12,32 +12,32 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-primary shadow-md sticky top-0 z-50">
+    <header className="bg-gradient-to-r from-primary via-primary to-nyc-brooklyn shadow-lg sticky top-0 z-50 border-b-2 border-nyc-empire">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2">
             <div className="hidden md:block">
               <h1 className="text-white font-bold text-xl">New York Plumbers</h1>
-              <p className="text-white text-xs">Find Local Trusted Professionals in New York</p>
+              <p className="text-nyc-taxi text-xs font-medium">Find Local Trusted Professionals in New York</p>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-white hover:text-secondary-light transition-colors">
+            <Link to="/" className="text-white hover:text-nyc-taxi transition-colors">
               Home
             </Link>
-            <Link to="/suburbs" className="text-white hover:text-secondary-light transition-colors">
+            <Link to="/suburbs" className="text-white hover:text-nyc-taxi transition-colors">
               Plumbers by Suburb
             </Link>
-            <Link to="/blog" className="text-white hover:text-secondary-light transition-colors">
+            <Link to="/blog" className="text-white hover:text-nyc-taxi transition-colors">
               Blog
             </Link>
-            <Link to="/contact" className="text-white hover:text-secondary-light transition-colors">
+            <Link to="/contact" className="text-white hover:text-nyc-taxi transition-colors">
               Contact
             </Link>
             <Link to="/contact">
-              <Button variant="outline" className="bg-white text-primary hover:bg-secondary-light">
+              <Button variant="outline" className="bg-nyc-empire text-primary border-nyc-empire hover:bg-nyc-taxi hover:text-primary transition-all duration-300">
                 <Phone className="h-4 w-4 mr-2" />
                 Emergency Call
               </Button>

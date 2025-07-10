@@ -121,59 +121,8 @@ const BlogPostPage = () => {
           
           {/* Sidebar */}
           <div>
-            {/* Author Card */}
-            <Card className="mb-8">
-              <CardContent className="pt-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center mr-4">
-                    <span className="font-medium text-gray-600">{post.author.charAt(0)}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-medium">{post.author}</h3>
-                    <p className="text-sm text-gray-500">Plumbing Expert</p>
-                  </div>
-                </div>
-                <p className="text-sm text-gray-600 mb-4">
-                  Professional plumber with over 15 years of experience in residential and commercial plumbing across Melbourne.
-                </p>
-              </CardContent>
-            </Card>
-            
-            {/* Categories */}
-            <Card className="mb-8">
-              <CardContent className="pt-6">
-                <h3 className="font-medium mb-4">Categories</h3>
-                <div className="space-y-2">
-                  <Link 
-                    to="/blog?category=DIY Plumbing" 
-                    className="block p-2 rounded hover:bg-gray-100 transition-colors"
-                  >
-                    DIY Plumbing
-                  </Link>
-                  <Link 
-                    to="/blog?category=Plumbing Tips" 
-                    className="block p-2 rounded hover:bg-gray-100 transition-colors"
-                  >
-                    Plumbing Tips
-                  </Link>
-                  <Link 
-                    to="/blog?category=Industry News" 
-                    className="block p-2 rounded hover:bg-gray-100 transition-colors"
-                  >
-                    Industry News
-                  </Link>
-                  <Link 
-                    to="/blog?category=How-To Guides" 
-                    className="block p-2 rounded hover:bg-gray-100 transition-colors"
-                  >
-                    How-To Guides
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
-            
-            {/* Call to Action */}
-            <Card className="bg-primary text-white">
+            {/* Call to Action - moved to top, removed author and categories cards */}
+            <Card className="bg-primary text-white mb-8">
               <CardContent className="pt-6">
                 <h3 className="font-medium mb-3">Need a Plumber?</h3>
                 <p className="mb-4 text-sm">

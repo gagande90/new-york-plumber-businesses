@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import PageHero from "@/components/common/PageHero";
 import BlogPostCard from "@/components/common/BlogPostCard";
-import { blogPosts } from "@/data/mockData";
+import blogPostsData from "@/data/generatedBlogPosts.json";
 import { BlogCategory } from "@/types";
 
 const BlogPage = () => {
@@ -22,7 +22,7 @@ const BlogPage = () => {
   ];
   
   // Filter posts based on active category and search query
-  const filteredPosts = blogPosts.filter(post => {
+  const filteredPosts = blogPostsData.filter(post => {
     const matchesCategory = !activeCategory || post.category === activeCategory;
     const matchesSearch = !searchQuery || 
       post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -43,7 +43,7 @@ const BlogPage = () => {
     <div>
       <PageHero
         title="Plumbing Blog & Advice"
-        subtitle="Expert tips, tricks, and insights for Melbourne homeowners."
+        subtitle="Expert tips, tricks, and insights for New York homeowners."
       >
         <form onSubmit={handleSearch} className="max-w-md mx-auto">
           <div className="relative">
@@ -120,7 +120,7 @@ const BlogPage = () => {
           <div className="flex flex-wrap justify-center gap-2">
             {["Blocked Drains", "Water Leaks", "Hot Water Systems", "Toilet Repairs", 
               "Pipe Installation", "Water Saving", "Emergency Plumbing", "DIY", 
-              "Maintenance Tips", "Melbourne", "Winter Plumbing", "Gas Fitting"].map(tag => (
+              "Maintenance Tips", "NYC", "Winter Plumbing", "Gas Fitting"].map(tag => (
               <Badge 
                 key={tag} 
                 variant="outline" 

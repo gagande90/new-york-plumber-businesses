@@ -149,7 +149,7 @@ const HomePage = () => {
       </section>
 
       {/* Featured Plumbers Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-br from-gray-50 to-nyc-taxi/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-primary mb-4">
@@ -181,28 +181,27 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Did You Know Section */}
-      <section className="py-16 bg-primary text-white">
+      {/* Stats Section */}
+      <section className="py-16 bg-gradient-to-r from-primary to-nyc-brooklyn text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Did You Know?</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-              <div>
-                <div className="text-3xl font-bold mb-2">78%</div>
-                <p>of New York homes will experience a serious plumbing issue within a 5-year period</p>
-              </div>
-              <div>
-                <div className="text-3xl font-bold mb-2">15,000L</div>
-                <p>of water can be wasted annually from a single dripping tap</p>
-              </div>
-              <div>
-                <div className="text-3xl font-bold mb-2">24hr</div>
-                <p>is the average response time for emergency plumbers in New York</p>
-              </div>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">
+              Why Choose New York Plumbers?
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
+              <div className="text-3xl font-bold mb-2 text-nyc-empire">78%</div>
+              <p>of New York homes will experience a serious plumbing issue within a 5-year period</p>
             </div>
-            <p className="text-lg">
-              Don't wait for a plumbing emergency! Regular maintenance by qualified plumbers can save you thousands.
-            </p>
+            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
+              <div className="text-3xl font-bold mb-2 text-nyc-empire">24hr</div>
+              <p>is the average response time for emergency plumbers in New York</p>
+            </div>
+            <div className="text-center p-6 bg-white/10 rounded-lg backdrop-blur-sm">
+              <div className="text-3xl font-bold mb-2 text-nyc-empire">100%</div>
+              <p>licensed and insured plumbers in our directory</p>
+            </div>
           </div>
         </div>
       </section>

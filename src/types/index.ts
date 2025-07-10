@@ -51,7 +51,7 @@ export interface BlogPost {
   slug: string;
   excerpt: string;
   content: string;
-  category: BlogCategory;
+  category: string;
   tags: string[];
   author: string;
   date: string;

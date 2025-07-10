@@ -26,14 +26,25 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#0A3D62',
+					DEFAULT: '#1B365D', // NYC Deep Blue
 					foreground: '#FFFFFF',
 					light: '#3498DB',
 				},
 				secondary: {
-					DEFAULT: '#34495E',
+					DEFAULT: '#2C3E50', // Manhattan Gray
 					foreground: '#FFFFFF',
 					light: '#ECF0F1',
+				},
+				accent: {
+					DEFAULT: '#FFD700', // Empire State Gold
+					foreground: '#1B365D',
+				},
+				nyc: {
+					taxi: '#F4D03F', // NYC Taxi Yellow
+					broadway: '#E74C3C', // Broadway Red
+					empire: '#FFD700', // Empire State Gold
+					manhattan: '#2C3E50', // Manhattan Gray
+					brooklyn: '#34495E', // Brooklyn Blue
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -42,10 +53,6 @@ export default {
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
-				},
-				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',

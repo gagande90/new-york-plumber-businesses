@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Search, MapPin } from "lucide-react";
+import { Search, MapPin, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { suburbs } from "@/data/mockData";
@@ -45,23 +45,22 @@ const SearchBar = ({ placeholder = "Search for suburbs...", className = "" }: Se
     <div className={`relative ${className}`}>
       <form onSubmit={handleSubmit} className="flex w-full">
         <div className="relative flex-grow">
-          <Input
+          <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+            <Search className="h-5 w-5 text-gray-400" />
+          </div>
+          <input
             type="text"
+            placeholder="Search for plumbers, services, or suburbs..."
             value={searchQuery}
-            onChange={handleInputChange}
-            placeholder={placeholder}
-            className="pr-10 rounded-r-none h-12"
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-nyc-empire focus:border-nyc-empire transition-all duration-200"
           />
           {searchQuery && (
             <button
-              type="button"
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600"
-              onClick={() => {
-                setSearchQuery("");
-                setShowResults(false);
-              }}
+              onClick={() => setSearchQuery("")}
+              className="absolute inset-y-0 right-0 pr-3 flex items-center"
             >
-              &times;
+              <X className="h-5 w-5 text-gray-400 hover:text-nyc-broadway transition-colors" />
             </button>
           )}
         </div>

@@ -6,16 +6,16 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-secondary text-white pt-12 pb-6">
+    <footer className="bg-gradient-to-r from-nyc-manhattan via-primary to-nyc-brooklyn text-white pt-12 pb-6">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">New York Plumbers</h3>
+            <h3 className="text-xl font-semibold mb-4 text-nyc-empire">New York Plumbers</h3>
             <p className="mb-4">
               Your trusted source for finding qualified and reliable plumbers across New York.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="text-white hover:text-primary-light">
+              <a href="#" className="text-white hover:text-nyc-taxi transition-colors">
                 <span className="sr-only">Facebook</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path
